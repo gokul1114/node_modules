@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 9000;
 
 app.get("/",async(req,resp) => {
     //resp.send("hello world")
-    let paths = process.cwd() || "C:";
+    let paths = "C:";
     console.log(process.cwd())
     let dateObj = new Date();
     let timeStamp = Date.now();
